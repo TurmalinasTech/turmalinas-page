@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300&family=Lexend+Deca:wght@200;300;400&family=Outfit:wght@100;200;300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor0: #A3E0Fb;
+    --cor1: #DEFAFD;
+    --cor2: #284B62;
+    --cor3: #60A5E7;
+    --cor4: #3F77AE;
+}
+
+body {
+    background: #fff;
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 65px;
+    background: var(--cor2);
+    margin: 0px;
+}
+
+nav .logo a {
+    font-size: 26px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    display: flex; 
+    align-items: center;
+}
+
+nav .logo a:hover {
+    color: var(--cor3);
+    transition: 0.5;
+}
+
+nav .logo a img {
+    width: 80px;
+    height: 70px;
+    margin-top: 20px;
+    margin-right: 0;
+    margin-left: 380px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+    list-style: none;
+    margin-right: 400px; 
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    white-space: nowrap; 
+}
+
+
+nav ul li a:hover {
+    color: var(--cor3);
+    transition: 0.5s;
+}
+
+.menu-icon {
+    display: none;
+    width: 25px; 
+    height: 3px; 
+    background:#fff;
+    transform: translateY(-50%);
+    transition: 0.5s; 
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.menu-icon::before,
+.menu-icon::after {
+    content: "";
+    position: absolute;
+    width: 25px; 
+    height: 3px;
+    background: #fff;
+    transition: 0.5s; 
+    border-radius: 5px;
+}
+
+.menu-icon::before {
+    top: -8px;
+}
+
+.menu-icon::after {
+    top: 8px;
+}
+
+
+.menu-icon.active {
+    background: rgba(0, 0, 0, 0);
+}
+
+.menu-icon.active::before {
+    top: 0;
+    transform: rotate(45deg);
+}
+.menu-icon.active::after {
+    top: 0;
+    transform: rotate(135deg);
+}
+
+@media screen and (max-width: 992px) {
+    nav ul {
+        display: flex;
+        position: fixed;
+        align-items: baseline;
+        justify-content: flex-start;
+        padding-left: 50px;
+        padding-top: 50px;
+        gap: 1.9rem;
+        list-style: none;
+        top: 63px;
+        left: 100%;
+        width: 100%;
+        height: 95vh;
+        background: var(--cor4);
+        flex-direction: column;
+        transition: 0.5s ease-in;
+        margin-right: 0;
+        
+    }
+
+    nav .logo a img {
+        width: 80px;
+        height: 70px;
+        margin-top: 20px;
+        margin-right: 230px;
+        margin-left: 0px;
+    }
+
+    nav ul li a {
+        
+        font-weight: 700; 
+        font-size: 27px;
+    }
+
+    ul.active {
+        left: 0;
+        transition: 0.5s ease-in;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}
