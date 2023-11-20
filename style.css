@@ -118,6 +118,37 @@ nav ul li a:hover {
     transform: rotate(135deg);
 }
 
+.porqueturmalinas{
+    font-family: 'Khula';
+}
+
+.titulo {
+    text-align: center;
+    color: #284B62;
+    text-decoration: none; 
+    position: relative; 
+    width: 100%;
+  }
+
+.titulo::after {
+     position: absolute;
+     height: 2px;
+     margin: 0 auto;
+     content: '';
+     left: 0;
+     right: 0;
+     width: 250px;
+     background-color:  #284B62;
+     bottom: 6px; 
+ }
+
+.paragrafo{
+    text-align: justify;
+    text-justify: inter-word;
+    width: 71%;
+    margin: 0 auto;
+}
+
 @media screen and (max-width: 992px) {
     nav ul {
         display: flex;
@@ -162,3 +193,4 @@ nav ul li a:hover {
         display: block;
     }
 }
+
