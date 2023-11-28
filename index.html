@@ -1,42 +1,327 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="icones/logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
 
-    <title>Document</title>
+
+
+  <title>Turmalinas Tech</title>
 </head>
+<header>
+
+  <nav>
+    <div class="logo">
+      <img src="icones/logo.png" alt="logo-turmalinas">
+    </div>
+    <ul>
+      <!-- <li><a href="#home-section">Home</a></li> -->
+      <li><a href="#voluntarias-section">Integrantes</a></li>
+      <li><a href="#eventos-section">Eventos</a></li>
+      <li><a href="#atividades-section">Atividades</a></li>
+      <li><a href="#voluntarias-form-section">Faça parte</a></li>
+    </ul>
+    <div class="menu-icon"></div>
+  </nav>
+</header>
 
 <body>
 
-        <nav>
-            <div class="logo">
-                <a href=""><img src="icones/logo.png" alt="logo-turmalinas"></a>
+  <main>
+    <section>
+      <div class="proposito">
+        <div class="content">
+          <div class="texto">
+            <h1>Propósito</h1>
+            <p>O presente grupo nasceu dentro do IESP Faculdade em João Pessoa - PB, e
+              tem como intuito principal investigar sobre a atuação da mulher e seus desafios
+              na área da tecnologia, além de apoiar e emponderar as discentes do sexo feminino
+              da instituição a fim de minimizar os índices de evasão nos cursos de tecnologia.</p>
+          </div>
+          <div class="imagem">
+            <img src="icones/image 2.png" width="200" alt="" srcset="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div>
+        <div class="motivo-turmalinas">
+          <div class="texto-motivo">
+            <div class="topico-porque">
+
+              <h1>Por que Turmalinas?</h1>
             </div>
-                <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">INTEGRANTES</a></li>
-                    <li><a href="">EVENTOS</a></li>
-                    <li><a href="">ATIVIDADES</a></li>
-                    <li><a href="">FAÇA PARTE</a></li>
-                </ul>
-                <div class="menu-icon"></div>
-        </nav>
-        <div>
-            <div class="porqueturmalinas">
-                <h1 class="titulo">Por que Turmalinas?</h1>
-                <p class="paragrafo">
-                     O nome foi escolhido para representar quão preciosas nós somos dentro da nossa sociedade e como precisamos nos valorizar de tal forma (turmalina é uma pedra preciosa existente em nossa região). Além disso, nossa logo trás uma inspiração do ícone USB com o termo “resiliência”. A resiliência é destacada por ser uma das bases do projeto e ser a bandeira do feminismo, da luta da mulher por seu espaço, pela igualdade e direitos garantidos. O cacto também soma o aspecto de representatividade regional, já que estamos no Estado da Paraíba e esse tipo de planta é típica de nossa região
-                </p>
+            <p>O nome foi escolhido para representar quão preciosas nós somos dentro da nossa
+              sociedade e como precisamos nos valorizar de tal forma (turmalina é uma pedra
+              preciosa existente em nossa região). Além disso, nossa logo trás uma inspiração do
+              ícone USB com o termo “resiliência”. A resiliência é destacada por ser uma das
+              bases do projeto e ser a bandeira do feminismo, da luta da mulher por seu espaço,
+              pela igualdade e direitos garantidos. O cacto também soma o aspecto de
+              representatividade regional, já que estamos no Estado da Paraíba e esse tipo de planta
+              é típica de nossa região</p>
+          </div>
+        </div>
+      </div>
+    </section >
+
+    <section class="mural">
+      <h2 id="eventos-section">Turmalinas Tech Day</h2>
+      <div class="card-container">
+        <div class="card">
+          <img src="icones/mural-esq.svg" alt="">
+          <div class="card-content">
+            <h3>Palestra</h3>
+            <p>Navegando na Ciência de Dados e Enfrentando o Novo por Elayni Franco.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="icones/mural-centro.svg" alt="">
+          <div class="card-content">
+            <h3>Mesa redonda</h3>
+            <p>“Desmistificando o Home Office” com Kelly Pereira, Uberlândia Félix,
+              Janiffer Macena e Gabriela Cavalcante.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="icones/mural-direita.svg" alt="">
+          <div class="card-content">
+            <h3>Participantes</h3>
+            <p>Voluntários e integrantes da Turmalinas Tech</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="atividades-section" class="atividades-turma">
+      <div class="explicacao-atividades">
+        <div class="topico-explicacao">
+          <h1  >Atividades das Turmalinas</h1>
+        </div>
+        <p>Ações voltadas a cursos, palestras e eventos relacionados à tecnologia,
+          sempre buscando trazer inspirações de mulheres na área, elencando os
+          seus desafios e suas realizações. Além disso, fortalecemos o apoio às
+          discentes dentro da faculdade e, especificamente, dentro dos cursos de tecnologia.</p>
+      </div>
+    </section>
+
+    <section class="depoimentos">
+      <h2>Depoimentos</h2>
+      <div class="wrapper">
+        <div class="prev">&#10094;</div>
+
+        <div class="box">
+          <i id="aspas" class="fas fa-quote-left quote"></i>
+          <p>Meu nome é Elvira e, atualmente, sou estudante de Sistemas para Internet. Sou formada em Direito, mas foi
+            na tecnologia que encontrei o meu espaço
+            e, por isso, resolvi fazer a transição de carreira. Conheci o Turmalinas assim que entrei na faculdade e
+            logo quis fazer parte desse projeto tão especial.
+            O apoio que encontro no grupo me empolga demais, inclusive em relação ao curso, e isso faz com que eu queira
+            mais ainda que outras mulheres se
+            sintam
+            acolhidas também. Estamos sempre fazendo networking e realizando eventos e cursos, buscando incentivar mais
+            mulheres na área de
+            tecnologia e mostrar as
+            mulheres incríveis que já fazem parte dessa área e seguem suas carreiras. Sinto muito orgulho em fazer parte
+            desse grupo,
+            no qual tive o prazer de
+            conhecer mulheres maravilhosas e determinadas.</p>
+          <div class="content">
+            <div class="info">
+              <div class="name">Elvira Macedo</div>
+              <div class="job">Voluntária</div>
+
             </div>
+            <div class="image">
+              <img src="icones/foto-elvira.svg" alt="">
+            </div>
+          </div>
         </div>
 
-        
+        <div class="box">
+          <i id="aspas" class="fas fa-quote-left  quote"></i>
+          <p>Sou Dra. Carolina Oliveira, professora e coordenadora do grupo de pesquisa Turmalinas Tech nos cursos de
+            Sistemas.
+            Assumi a liderança em 2022, com grande entusiasmo, a convite do coordenador, após a criação do grupo pelas
+            Doutoras Aline e Alana. Nos últimos dois anos, construímos memórias com nossas alunas e voluntárias,
+            trabalhando em pesquisa e extensão, culminando no evento Turmalinas Tech Day.
+            Estamos orgulhosos do que alcançamos e ansiosos pelo que o futuro nos reserva..</p>
+          <div class="content">
+            <div class="info">
+              <div class="name">Carolina Oliveira</div>
+              <div class="job">Professora | Coordenadora</div>
 
-        <script src="index.js"  src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            </div>
+            <div class="image">
+              <img src="icones/foto-carolina.svg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="box">
+          <i id="aspas" class="fas fa-quote-left  quote"></i>
+          <p>O propósito do Turmalinas Tech faz todo sentido com os meus princípios.
+            Cheguei em agosto/2021 para somar forças.</p>
+          <div class="content">
+            <div class="info">
+              <div class="name">Cleonice Celestino</div>
+              <div class="job">Voluntária</div>
+
+            </div>
+            <div class="image">
+              <img src="icones/foto-cleo.svg" alt="">
+            </div>
+          </div>
+        </div>
+        <div class="next">&#10095;</div>
+
+      </div>
+    </section>
+
+    <section class="voluntarias">
+      <h2 id="voluntarias-section" >Atualmente temos um grande grupo de voluntárias, algumas delas são:</h2>
+      <div class="cards-vol">
+        <div class="vol">
+          <img src="icones/foto-layse.svg" alt="">
+          <p>Meu nome é Layse, sou fisioterapeuta e atualmente estou cursando o primeiro período do curso de Sistemas
+            para Internet. Desempenhar o papel de voluntária no projeto Turmalinas tem sido uma experiência
+            significativa, contribuindo ativamente no apoio às mulheres.</p>
+        </div>
+        <div class="vol">
+          <img src="icones/foto-natalia.svg" alt="">
+          <p>Sou Natália, engenheira e estou cursando a Pós Graduação em Desenvolvimento Back End Jr. Sou voluntária da
+            Turmalinas Tech e participar desse projeto maravilhoso é muito gratificante.</p>
+        </div>
+      </div>
+      <div class="cards-vol">
+        <div class="vol">
+          <img src="icones/foto-amanda.svg" alt="">
+          <p>Ola sou Amanda, sou estudante de Sistemas e uma curiosa nata. Estou sempre usando minha criatividade para
+            realizar qualquer atividade. Sou voluntaria no turmalinas e com foco na área de dados.</p>
+        </div>
+        <div class="vol">
+          <img src="icones/foto-cleo.svg" alt="">
+          <p>Sou conhecida como Cleo. Atualmente estou curando o 5º período do curso de Sistemas para Internet. Sou
+            formada em design gráfico e administração. Tecnologia é meu fator de combustão.</p>
+        </div>
+        <div class="vol">
+          <img src="icones/foto-jessica.svg" alt="">
+          <p>Sou Jessica Neves, voluntária no projeto Turmalinas e estou atualmente cursando Sistemas para Internet.
+            Minha experiência como voluntária tem sido enriquecedora.</p>
+        </div>
+        <div class="vol">
+          <img src="icones/foto-elvira.svg" alt="">
+          <p>Meu nome é Elvira e, atualmente, estou cursando Sistemas para Internet. Assim que comecei o curso tive a
+            sorte de conhecer o Turmalinas e no mesmo instante quis fazer parte desse projeto tão especial.</p>
+        </div>
+        <div class="vol">
+          <img src="icones/foto-nayara.svg" alt="">
+          <p>Sou a Nayara, engenheira e em migração de carreira para área de tecnologia, cursando Sistemas para
+            Internet. Tem sido incrível para mim apoiar mulheres através do turmalinas.</p>
+        </div>
+        <div class="vol">
+          <img src="icones/foto-kellyane.svg" alt="">
+          <p>Oii, eu sou Kellyanne e sou graduanda em Sistemas de Informção. Atuando como voluntaria no Turmalinas me
+            sinto acolhida por grande mulheres e motivada a evoluir profissionalmente como desenvolvedora.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="voluntarias-form-section"  class="faca-parte">
+
+      <h2>Faça parte da equipe</h2>
+
+      <form
+      action="https://formsubmit.co/ajax/turmalinastech@gmail.com"
+      method="POST"
+      data-form
+    >
+
+     <div class="form-container">
+      <div class="form-esquerda">
+        <label>Nome</label>
+        <input type="text" name="Nome" placeholder="Digite seu nome" autocomplete="off" required>
+        <label>Email</label>
+        <input type="email" name="Email" placeholder="Digite seu email" autocomplete="off" required>
+        <label>Fale um pouco sobre você</label>
+        <textarea name="Sobre mim" cols="10" rows="4" placeholder="Compartilhe um pouco sobre quem você é..."
+          required></textarea>
+
+      </div>
+      
+        <div class="form-direita">
+          <label>Período</label>
+            <select name="periodo" id="">
+              <option value="p1">1º</option>
+              <option value="p2">2º</option>
+              <option value="p3">3º</option>
+              <option value="p4">4º</option>
+              <option value="p5">5º</option>
+              <option value="p6">6º</option>
+              <option value="p7">7º</option>
+              <option value="p8">8º</option>
+              <option value="p9">9º</option>
+              <option value="p10">10º</option>
+            </select>
+            <label id="fone" for="fone">Celular com DDD</label>
+            <input type="text" name="telefone" required pattern="[0-9]{2} [0-9]{5}-[0-9]{4}" placeholder="11 99999-9999"><br>
+      
+            <label>Por que você quer participar desse projeto?</label>
+        <textarea name="Por que participar" cols="10" rows="4" placeholder="Conte-nos por que você está interessado em fazer parte deste projeto..."
+          required></textarea>
+        </div>            
+      </div>
+      <div class="botton-form">
+        <button type="submit" data-button>Enviar</button>
+      </div>
+    </form>
+  </section>
+
+  <section class="faq-section">
+    <h1>FAQ</h1>
+     <details>
+      <summary>O que é o Turmalinas Tech?</summary>
+      <p>O Turmalinas Tech é uma iniciativa nascida na UNIESP, com o propósito de acolher e empoderar mulheres nos cursos de sistemas para internet e sistemas da informação. Fundado para combater a evasão feminina na área da tecnologia, o grupo busca criar um ambiente inclusivo, investigando desafios e promovendo oportunidades para as estudantes.</p>
+    </details>
+    <details>
+      <summary>Qual é o público alvo?</summary>
+    <p>O público-alvo do Turmalinas Tech abrange não apenas os alunos da UNIESP, mas é direcionado ao público em geral. Embora a participação no voluntariado para compor o Turmalinas Tech seja exclusiva para mulheres, os eventos, divulgações e atividades promovidos pelo grupo são destinados a toda a comunidade, buscando criar um espaço inclusivo e promover a diversidade na área da tecnologia.</p>
+    </details>
+    <!-- <details>
+      <summary>Como posso apoiar com esse projeto?</summary>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur nihil at autem, ipsa cum laudantium molestias eius quis laborum vel?</p>
+    </details> -->
+    <details>
+      <summary>Quero ser voluntária, como faço?</summary>
+      <p>Para se tornar voluntária no Turmalinas Tech, basta acessar a seção "Faça parte da equipe" em nosso site. Nessa área, mulheres interessadas em contribuir como voluntárias podem preencher seus dados e estabelecer as comunicações necessárias para integrar a equipe do Turmalinas. Estamos ansiosos para receber novas integrantes comprometidas com nossa missão de promover a presença feminina na tecnologia e combater a evasão nos cursos relacionados.</p>
+    </details>
+    <details>
+      <summary>Me identifico com o gênero feminino, posso fazer parte da equipe?</summary>
+      <p>Sim, com certeza! O Turmalinas Tech é aberto a todas as mulheres que desejam fazer parte da equipe. Se você se identifica com o gênero feminino e compartilha nosso interesse em promover inclusão e diversidade na área da tecnologia, ficaremos felizes em receber sua participação. Visite a seção "Faça parte da equipe" em nosso site para mais informações sobre como se envolver. Estamos ansiosos para contar com sua colaboração!</p>
+    </details>
+  </section>
+ 
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
+
+
+<footer>
+  <div class="rounded-social-buttons">
+    <h3>Conheça nossas redes sociais</h3>
+                    <a class="social-button linkedin" href="https://www.linkedin.com/in/turmalinastechuniesp/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a class="social-button youtube" href=" https://www.youtube.com/@TurmalinasTech" target="_blank"><i class="fab fa-youtube"></i></a>
+                    <a class="social-button instagram" href="https://www.instagram.com/turmalinastech/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+</footer>
+  </main>
+  <button onclick="scrollToTop()" id="scrollToTopBtn" title="Voltar ao Topo">&#9650;</button>
+
 </body>
+<script src="index.js"></script>
 
 
 </html>
