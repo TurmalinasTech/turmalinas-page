@@ -13,7 +13,7 @@ const HeroImg: React.FC = () => {
         src={imagem}
         alt="Um grupo de meninas que fazem parte do turmalinas tech"
       />
-      <div className="absolute top-[368px] left-80 w-20 h-20 overflow-hidden">
+      <div className="hidden sm:flex absolute top-[368px] left-80 w-20 h-20 overflow-hidden">
         <div className="absolute left-0 w-20 h-12 bg-blue_dark rounded-t-full"></div>
       </div>
     </section>

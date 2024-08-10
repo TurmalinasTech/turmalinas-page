@@ -6,7 +6,7 @@ import { HeroText } from "./HeroText";
 const Hero: React.FC = () => {
   return (
     <section id="hero" className="flex justify-center items-center">
-      <div className="flex flex-col items-start sm:items-center md:flex-row w-4/5 lg:w-7/12 ">
+      <div className="flex flex-col items-center md:flex-row w-4/5 lg:w-7/12 ">
       <HeroText
         title={Content.slogan.titulo}
         frase={Content.slogan.frase}

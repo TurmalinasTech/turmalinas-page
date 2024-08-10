@@ -4,7 +4,7 @@ import img from "../../assets/imagens/slide.jpg"
 
 const Event: React.FC = () => {
   return (
-    <section className='flex flex-col  sm:flex-row mt-4 bg-blue_light'>
+    <section className='flex flex-col  md:flex-row mt-4 bg-blue_light'>
   <div className='flex-1 flex flex-col justify-center items-center sm:items-end text-center sm:text-right '>
     <h1 className='text-xl p-4 font-bold'>{Content.proxioEvento.titulo}</h1>
     <h3 className='text-sm px-4 mt-2 md:w-96'>{Content.proxioEvento.frase}</h3>

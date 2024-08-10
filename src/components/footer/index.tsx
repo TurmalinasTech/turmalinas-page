@@ -1,6 +1,8 @@
 import React from "react";
 import instagram from "../../assets/icons/streamline_instagram-solid.png";
 import linkedin from "../../assets/icons/mdi_linkedin.png";
+import { FaLinkedin, FaSquareInstagram } from "react-icons/fa6";
+
 
 const Footer = () => {
   return (
@@ -14,23 +16,15 @@ const Footer = () => {
         <p className="text-xs">turmalinastech@gmail.com</p>
       </div>
 
-      <div className="flex">
+      <div className="flex text-bege">
         <a href="https://www.instagram.com/turmalinastech" target="_black">
-          <img
-            className="w-10 h-10"
-            src={instagram}
-            alt="Link para o instagram"
-          />
+        <FaSquareInstagram  className="text-4xl" />
         </a>
         <a
           href="https://www.linkedin.com/in/turmalinastechuniesp/"
           target="_blanck"
         >
-          <img
-            className="w-10 h-10"
-            src={linkedin}
-            alt="Link para o instagram"
-          />
+          <FaLinkedin className="text-4xl" />
         </a>
       </div>
     </section>

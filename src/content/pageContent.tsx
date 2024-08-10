@@ -2,14 +2,14 @@
 const Content = {
     slogan: {
         titulo: "Juntas \ntransformamos o futuro da tecnologia",
-        frase: "Trumalinas tech",
+        frase: "Turmalinas tech",
         botao: "ENTRAR EM CONTATO",
         voluntarias: "SEJA VOLUNTÁRIA",
     },
     valores: {
         primeiro: {
             title: "EMPODERAMENTO",
-            frase: "Focamos em apoiar mulheres, oferecendo uma comunidade para que as mulheres se empoderem e liderem no setor tecnológico.",
+            frase: "Focamos em apoiar mulheres, oferecendo uma comunidade para que elas se empoderem e liderem no setor tecnológico.",
         },
         segundo: {
             title: "COLABORAÇÃO",
@@ -34,13 +34,13 @@ const Content = {
     },
     proxioEvento: {
         titulo: "🌟 Prepare-se para o Turmalinas Tech Day! 🚀",
-        frase: "Estamos animados em anunciar o Turmalinas Tech Day, que acontecerá no dia 21 de setembro! Será um dia repleto de inspirações, conexões e experiências incríveis. Junte-se a nós e faça parte desse evento transformador!",
+        frase: "Estamos animadas em anunciar o Turmalinas Tech Day, que acontecerá no dia 21 de setembro! Junte-se a nós e faça parte desse evento transformador!",
         botao: "INGRESSOS",
         img: "../assets/imagens/notbook.jpg"
 
     },
     nossaLoja: {
-        titulo: "Explore Nossa Lojinha! 💎",
+        titulo: "Explore Nossa Loja! 💎",
         frase: "Nossos produtos exclusivos estão esperando por você!",
         botao: "CONFERIR",
         img: "../assets/imagens/sacola.webp"

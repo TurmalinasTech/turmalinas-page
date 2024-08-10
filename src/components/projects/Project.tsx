@@ -14,7 +14,7 @@ const Project: React.FC<IProjetos> = ({ title, frase, img }) => {
         {img}
       </div>
       <h1 className='text-blue text-sm pb-4 font-bold z-20'>{title}</h1>
-      <p className='text-blue_dark font-light text-xs text-blue-500 text-justify z-20'>{frase}</p>
+      <p className='text-blue_dark font-normal text-xs text-blue-500 text-justify z-20'>{frase}</p>
     
     </section>
   )

@@ -35,7 +35,7 @@ const Projects: React.FC = () => {
             frase={value.frase}
           />
         ))}
-        <div className="absolute top-[600px] sm:top-[600px] md:top-52 right-[-50px] w-20 h-20 overflow-hidden">
+        <div className="hidden sm:flex absolute top-[600px] sm:top-[600px] md:top-52 right-[-50px] w-20 h-20 overflow-hidden">
           <div className="absolute w-20 h-12 bg-blue_dark rounded-t-full"></div>
         </div>
       </div>
