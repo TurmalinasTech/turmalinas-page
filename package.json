@@ -1,7 +1,7 @@
 {
   "name": "turmalinas",
   "private": true,
-  "homepage": "https://www.turmalinas.tech/",
+  "homepage": "turmalinas.tech",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
