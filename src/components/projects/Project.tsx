@@ -10,7 +10,7 @@ const Project: React.FC<IProjetos> = ({ title, frase, img }) => {
   return (
     <section className='relative p-4 flex flex-col justify-center items-center'>
       <div className='bg-blue_light rounded-t-full absolute right-0 top-0 w-72 h-52 rounded-lg z-0'></div>
-      <div className='relative z-10'>
+      <div className='relative z-10 w-200'>
         {img}
       </div>
       <h1 className='text-blue text-sm pb-4 font-bold z-20'>{title}</h1>
