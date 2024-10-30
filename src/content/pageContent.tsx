@@ -29,7 +29,7 @@ const Content = {
         },
         segundoProjeto: {
             titulo: "Projeto Dock - Mulheres que programam",
-            frase: "O Projeto Docker foi uma iniciativa dedicada a ensinar tecnologia para mulheres em situação de vulnerabilidade. Como professoras, tivemos o privilégio de compartilhar conhecimentos e habilidades. Através de aulas práticas e teóricas, promovemos a inclusão digital e abrimos portas para um futuro mais promissor. Juntas, acreditamos no poder transformador da educação e da tecnologia para mudar vidas.",
+            frase: "O Projeto Dock foi uma iniciativa dedicada a ensinar tecnologia para mulheres em situação de vulnerabilidade. Como professoras, tivemos o privilégio de compartilhar conhecimentos e habilidades. Através de aulas práticas e teóricas, promovemos a inclusão digital e abrimos portas para um futuro mais promissor. Juntas, acreditamos no poder transformador da educação e da tecnologia para mudar vidas.",
         }
     },
     proxioEvento: {
