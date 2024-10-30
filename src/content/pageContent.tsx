@@ -28,7 +28,7 @@ const Content = {
             frase: "O Evento Mulheres na Tecnologia é uma celebração da inovação, liderança e talento feminino no setor tecnológico. Neste encontro único, destacamos o poder transformador das mulheres através de palestras inspiradoras ministradas exclusivamente por elas. Juntas, estamos moldando o futuro da tecnologia com diversidade, inclusão e colaboração. Participe e inspire-se com as vozes que estão redefinindo o cenário tecnológico.",
         },
         segundoProjeto: {
-            titulo: "Projeto Docker: Tecnologia para Mulheres",
+            titulo: "Projeto Dock - Mulheres que programam",
             frase: "O Projeto Docker foi uma iniciativa dedicada a ensinar tecnologia para mulheres em situação de vulnerabilidade. Como professoras, tivemos o privilégio de compartilhar conhecimentos e habilidades. Através de aulas práticas e teóricas, promovemos a inclusão digital e abrimos portas para um futuro mais promissor. Juntas, acreditamos no poder transformador da educação e da tecnologia para mudar vidas.",
         }
     },
