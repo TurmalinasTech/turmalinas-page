@@ -34,7 +34,7 @@ const Content = {
     },
     proxioEvento: {
         titulo: "🌟 Prepare-se para o Turmalinas Tech Day! 🚀",
-        frase: "Estamos animadas em anunciar o Turmalinas Tech Day, que acontecerá no dia 21 de setembro! Junte-se a nós e faça parte desse evento transformador!",
+        frase: "Estamos animadas em anunciar o Turmalinas Tech Day, que acontecerá no dia 25 de outubro de 2025! Junte-se a nós e faça parte desse evento transformador!",
         botao: "INGRESSOS",
         img: "../assets/imagens/notbook.jpg"
 
